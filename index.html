@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Simulador de Pisos</title>
+
+<style>
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.simulador {
+    flex: 2;
+    min-height: 400px;
+    background-size: 200px;
+    background-repeat: repeat;
+    border: 5px solid #ccc;
+}
+
+.panel {
+    flex: 1;
+    max-height: 100vh;
+    overflow-y: scroll;
+    background: white;
+    padding: 10px;
+}
+
+.item {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+</style>
+</head>
+
+<body>
+
+<h1>Simulador de Pisos</h1>
+
+<div class="contenedor">
+
+<div id="espacio" class="simulador"
+style="background-image: url('https://i.imgur.com/8Km9tLL.jpg');">
+</div>
+
+<div class="panel">
+
+<div class="item" onclick="cambiarPiso('https://i.imgur.com/8Km9tLL.jpg')">
+<img src="https://i.imgur.com/8Km9tLL.jpg">
+<p>Piso Gris</p>
+</div>
+
+<div class="item" onclick="cambiarPiso('https://i.imgur.com/ZK7e6LZ.jpg')">
+<img src="https://i.imgur.com/ZK7e6LZ.jpg">
+<p>Piso Madera</p>
+</div>
+
+<div class="item" onclick="cambiarPiso('https://i.imgur.com/3dXnK5D.jpg')">
+<img src="https://i.imgur.com/3dXnK5D.jpg">
+<p>Piso Blanco</p>
+</div>
+
+</div>
+
+</div>
+
+<script>
+function cambiarPiso(imagen) {
+    document.getElementById("espacio").style.backgroundImage = "url('" + imagen + "')";
+}
+</script>
+
+</body>
+</html>
