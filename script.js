@@ -30,4 +30,6 @@ function calcular() {
     "Necesitas " + cajas + " cajas";
 
   document.getElementById("imagen").src = producto.imagen;
+  document.getElementById("simulador").style.backgroundImage =
+  "url('" + producto.imagen + "')";
 }
