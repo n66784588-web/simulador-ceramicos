@@ -13,3 +13,12 @@ img {
   margin-top: 20px;
   border-radius: 10px;
 }
+#simulador {
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  border: 2px solid #ccc;
+
+  background-size: 100px 100px;
+  background-repeat: repeat;
+}
