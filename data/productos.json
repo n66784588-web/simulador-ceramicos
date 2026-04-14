@@ -3,12 +3,12 @@
     {
       "nombre": "BREMEN BEIGE 30x60",
       "m2PorCaja": 1.62,
-      "imagen": "img/nitropiso/bremen-beige-30x60.jpg"
+      "imagen": "img/img/nitropiso/bremen-beige-30x60.jpg"
     },
     {
       "nombre": "ALAMEDA 60x60",
       "m2PorCaja": 1.44,
-      "imagen": "img/nitropiso/alameda-60x60.jpg"
+      "imagen": "img/img/nitropiso/alameda-60x60.jpg"
     }
   ]
 }
