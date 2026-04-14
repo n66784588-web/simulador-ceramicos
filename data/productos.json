@@ -1,21 +1,14 @@
 {
-  "porcelanite": [
+  "productos": [
     {
-      "nombre": "Modelo Beige",
-      "m2PorCaja": 1.5,
-      "imagen": "img/porcelanite/beige.jpg"
+      "nombre": "BREMEN BEIGE 30x60",
+      "m2PorCaja": 1.62,
+      "imagen": "img/nitropiso/bremen-beige-30x60.jpg"
     },
     {
-      "nombre": "Modelo Blanco",
-      "m2PorCaja": 1.4,
-      "imagen": "img/porcelanite/blanco.jpg"
-    }
-  ],
-  "daltile": [
-    {
-      "nombre": "Modelo Gris",
-      "m2PorCaja": 1.2,
-      "imagen": "img/daltile/gris.jpg"
+      "nombre": "ALAMEDA 60x60",
+      "m2PorCaja": 1.44,
+      "imagen": "img/nitropiso/alameda-60x60.jpg"
     }
   ]
 }
