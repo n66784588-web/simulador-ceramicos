@@ -1,1 +1,21 @@
-
+{
+  "porcelanite": [
+    {
+      "nombre": "Modelo Beige",
+      "m2PorCaja": 1.5,
+      "imagen": "img/porcelanite/beige.jpg"
+    },
+    {
+      "nombre": "Modelo Blanco",
+      "m2PorCaja": 1.4,
+      "imagen": "img/porcelanite/blanco.jpg"
+    }
+  ],
+  "daltile": [
+    {
+      "nombre": "Modelo Gris",
+      "m2PorCaja": 1.2,
+      "imagen": "img/daltile/gris.jpg"
+    }
+  ]
+}
