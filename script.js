@@ -17,12 +17,14 @@ function cargarProductos() {
     select.appendChild(option);
   });
 }
-
 function calcular() {
   let index = document.getElementById("producto").value;
   let metros = document.getElementById("metros").value;
 
   let producto = datos[index];
+
+  // 👇 AQUÍ VA
+  console.log(producto.imagen);
 
   let cajas = Math.ceil(metros / producto.m2PorCaja);
 
@@ -30,6 +32,7 @@ function calcular() {
     "Necesitas " + cajas + " cajas";
 
   document.getElementById("imagen").src = producto.imagen;
+
   document.getElementById("simulador").style.backgroundImage =
-  "url('" + producto.imagen + "')";
+    `url(${producto.imagen})`;
 }
